@@ -1,16 +1,35 @@
 class Solution {
+    
+    HashMap <Integer , Integer> map = new HashMap<>();
+    
     public int fib(int n) {
         
-        return helper(n) ;
-        
-    }
-    
-    public int helper(int n){
-        
-        if(n==0 || n== 1){
-            return n ;
+        if(n==0 || n ==1 ){
+             return n ;
         }
         
-        return helper(n-2) + helper(n-1) ;
+        if(map.containsKey(n)){
+            
+            return map.get(n);
+        }
+        
+        int result =  fib(n-1) + fib(n-2) ;
+        map.put(n , result);
+        return result ;
+       
     }
+   
+    
 }
+
+
+// simple recursion
+    
+//         if(n==0 || n== 1){
+//             return n ;
+//         }
+        
+//         return fib(n-2) + fib(n-1) ;
+
+
+// top down (Hashmap)
