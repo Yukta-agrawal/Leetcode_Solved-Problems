@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 class Solution {
     public int[] queryResults(int limit, int[][] queries) {
-        // HashMap to store the queries
+        
         HashMap<Integer, Integer> map = new HashMap<>();
         // HashMap to track the frequency of each value in the map
         HashMap<Integer, Integer> valueFrequency = new HashMap<>();
