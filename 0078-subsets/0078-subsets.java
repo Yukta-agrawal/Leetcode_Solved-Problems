@@ -1,15 +1,44 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>()); // Add the empty subset
-        for (int num : nums) {
-            int size = result.size();
-            for (int i = 0; i < size; i++) {
-                List<Integer> subset = new ArrayList<>(result.get(i));
-                subset.add(num);
-                result.add(subset);
+        
+        List<List<Integer>> ans = new ArrayList<>();
+       int n = nums.length ;
+        
+        
+        for(int i = 0 ; i< (1 << n) ; i++ ){
+             List<Integer>  list = new ArrayList<Integer>() ;
+            
+            for(int j = 0; j< n ; j++){
+                if((i & (1<< j)) !=0 ){
+                    list.add(nums[j]);
+                }
+                
             }
+            ans.add(list) ;
         }
-        return result;
+
+        return ans ;
+        
     }
 }
+    
+    
+//     public void helper(int index ,int[] nums , List<List<Integer>> ans , List<Integer> list ){
+        
+        
+//         if(index >= nums.length) {
+//             ans.add(new ArrayList<>(list)) ;
+//             return ;
+//         }
+
+//         list.add(nums[index]);
+        
+//         helper(index + 1 , nums , ans , list);
+        
+//         list.remove(list.size() -1);
+        
+//         helper(index + 1 , nums , ans , list);
+ 
+//     }
+    
+// }
