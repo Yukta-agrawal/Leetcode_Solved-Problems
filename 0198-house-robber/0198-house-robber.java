@@ -1,23 +1,23 @@
 class Solution {
     public int rob(int[] nums) {
         
-        int[] dp = new int[nums.length];
-        Arrays.fill(dp ,-1) ;
-        dp[0] = nums[0] ;
-        int take = Integer.MIN_VALUE ;
-        for(int i=1 ; i < nums.length ; i++){
-           if(i> 1){
-                take  = nums[i] + dp[i-2] ;
-           }
-            else{
-                take = nums[i];
-            }
-            int nottake = dp[i-1] ;
-            dp[i] = Math.max(take , nottake) ;
+            int a = nums[0] ;
+       if(nums.length == 1){
+           return a ;
+       }
+        int b = Math.max(nums[1] , a) ;
+        
+        
+        for(int i=2 ; i < nums.length ; i++){
+            
+            int take  = nums[i] + a;
+            int nottake = b ;
+            int c = Math.max(take , nottake) ;
+            a = b;
+            b = c ;
         }
         
-        
-        return dp[nums.length -1];
+        return b;
         
     }
     
