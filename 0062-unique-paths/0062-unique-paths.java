@@ -8,29 +8,30 @@ class Solution {
             Arrays.fill(row , -1);
             
         } 
-        return helper(m-1 , n-1 , dp);
         
+            
+        for(int i=0 ; i< m ; i++){
+            for(int j = 0; j<n ; j++){
+                if(i==0 && j==0){
+                    dp[i][j] = 1;
+                }
+                else{
+                    
+                    int right = 0 ;
+                    int down = 0 ;
+                    if(i>0){
+                        right  = dp[i-1][j] ;
+                    }
+                    if(j > 0){
+                        down = dp[i][j-1];
+                    }
+                    
+                    dp[i][j] = right + down ;
+                    
+                    
+                }
+            }
+        }
+        return dp[m-1][n-1] ;
     }
-    
-    
-    public int helper(int left , int up , int[][] dp){
-        
-      
-        if(left==0 && up==0 ){
-            return 1;
-        }
-        
-        if(left<0 || up<0){
-            return 0 ;
-        }
-        
-        if(dp[left][up] != -1){
-            return dp[left][up] ;
-        }
-        
-        
-         dp[left][up] = helper(left-1 , up , dp) +  helper(left , up-1 , dp );
-         return  dp[left][up] ;
-    }
-    
 }
