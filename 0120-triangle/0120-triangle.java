@@ -3,27 +3,25 @@ class Solution {
         
         int m = triangle.size();
         
-        int dp[][]  = new int[m][m] ;
-        
-        for(int[] row: dp){
-            Arrays.fill(row, -1);
-        }
+        int dp[] = new int[m];
+   
         
         for(int j = 0 ; j< m ; j++){
-            dp[m-1][j] = triangle.get(m-1).get(j);
+            dp[j] = triangle.get(m-1).get(j);
         }
         
         for(int i=m-2 ; i>= 0 ; i--){
-            
+            int temp[] = new int[m];
             for(int j=i; j>=0 ; j--){
                 
-                int sum1 = triangle.get(i).get(j) + dp[i+1][j];
-                int sum2 = triangle.get(i).get(j) + dp[i+1][j+1];
-                dp[i][j] = Math.min(sum1 , sum2) ;
+                int sum1 = triangle.get(i).get(j) + dp[j];
+                int sum2 = triangle.get(i).get(j) + dp[j+1];
+                temp[j] = Math.min(sum1 , sum2) ;
             }
+            dp  = temp ;
 
         }
-      return dp[0][0];
+      return dp[0];
     
     }
     
