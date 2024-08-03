@@ -20,6 +20,7 @@ class Solution {
         if(left==null){
             return right;
         }
+        
         else if(right==null){
             return left;
         }
