@@ -43,12 +43,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0053-maximum-subarray) |
 | [0322-coin-change](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0518-coin-change-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0053-maximum-subarray) |
 | [0322-coin-change](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0518-coin-change-ii) |
@@ -57,4 +59,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1250-longest-common-subsequence](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1250-longest-common-subsequence) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
