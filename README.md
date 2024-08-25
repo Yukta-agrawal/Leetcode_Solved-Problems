@@ -52,4 +52,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0518-coin-change-ii) |
+| [1250-longest-common-subsequence](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1250-longest-common-subsequence) |
+## String
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
