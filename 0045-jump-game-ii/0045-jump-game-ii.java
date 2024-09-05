@@ -4,21 +4,12 @@ class Solution {
         int dp[] = new int[n];
         Arrays.fill(dp , -1);
 
-        for(int i=0 ; i<=(n-1)/2 ; i++){
-            int a = nums[i] ;
-            nums[i] = nums[n-1-i] ;
-            nums[n-1-i] = a;
-        }
-        for(int i=0 ; i<n ; i++){
-            System.out.print(nums[i]+" ");
-        }
-
-        return helper(n-1 , nums , dp);
+        return helper(0 , nums , dp);
     }
 
     public int helper(int n ,int[] nums , int dp[]){
         
-        if(n==0){
+        if(n==nums.length-1){
             return 0;
         }
 
@@ -28,8 +19,8 @@ class Solution {
 
         int mini = 1000001;
         for(int k=nums[n] ; k>0 ; k--){
-            if(n-k>=0){
-                int r = 1 + helper(n-k,nums , dp);
+            if(n+k <= nums.length-1){
+                int r = 1 + helper(n+k,nums , dp);
                 mini = Math.min(r , mini);
             }
         }
