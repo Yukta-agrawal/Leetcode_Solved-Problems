@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0455-assign-cookies) |
 | [0518-coin-change-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0518-coin-change-ii) |
 ## Dynamic Programming
 |  |
@@ -69,4 +70,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0237-delete-node-in-a-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0455-assign-cookies) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0455-assign-cookies) |
+## Sorting
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
