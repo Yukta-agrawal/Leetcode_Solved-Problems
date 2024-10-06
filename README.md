@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Database
 |  |
 | ------- |
+| [0262-trips-and-users](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0262-trips-and-users) |
 | [0584-find-customer-referee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0595-big-countries) |
 | [1258-article-views-i](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1258-article-views-i) |
