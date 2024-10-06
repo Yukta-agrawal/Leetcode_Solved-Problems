@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1258-article-views-i](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1258-article-views-i) |
 | [1301-reformat-department-table](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1301-reformat-department-table) |
 | [1338-queries-quality-and-percentage](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1338-queries-quality-and-percentage) |
+| [1452-restaurant-growth](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1452-restaurant-growth) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1541-top-travellers](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1541-top-travellers) |
 | [1670-patients-with-a-condition](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1670-patients-with-a-condition) |
