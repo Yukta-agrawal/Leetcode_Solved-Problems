@@ -24,5 +24,4 @@ where
 AND drivers.banned = 'No'
 AND request_at between "2013-10-01" and "2013-10-03"
 
-GROUP BY day
-order by day;
+GROUP BY day;
