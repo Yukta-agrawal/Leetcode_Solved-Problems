@@ -107,5 +107,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1670-patients-with-a-condition](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1670-patients-with-a-condition) |
 | [1811-fix-names-in-a-table](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1811-fix-names-in-a-table) |
 | [1827-invalid-tweets](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1827-invalid-tweets) |
+| [1877-find-followers-count](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1877-find-followers-count) |
 | [1942-primary-department-for-each-employee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1942-primary-department-for-each-employee) |
 <!---LeetCode Topics End-->
