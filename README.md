@@ -99,5 +99,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1258-article-views-i](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1258-article-views-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1541-top-travellers](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1541-top-travellers) |
+| [1670-patients-with-a-condition](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1670-patients-with-a-condition) |
 | [1827-invalid-tweets](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1827-invalid-tweets) |
 <!---LeetCode Topics End-->
