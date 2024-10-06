@@ -90,4 +90,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0455-assign-cookies) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
