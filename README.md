@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0584-find-customer-referee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0595-big-countries) |
+| [1135-customers-who-bought-all-products](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1135-customers-who-bought-all-products) |
 | [1161-project-employees-i](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1161-project-employees-i) |
 | [1258-article-views-i](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1258-article-views-i) |
 | [1301-reformat-department-table](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1301-reformat-department-table) |
