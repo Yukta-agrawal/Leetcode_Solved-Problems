@@ -114,4 +114,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1877-find-followers-count](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1877-find-followers-count) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1908-recyclable-and-low-fat-products) |
 | [1942-primary-department-for-each-employee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1942-primary-department-for-each-employee) |
+| [2087-confirmation-rate](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/2087-confirmation-rate) |
 <!---LeetCode Topics End-->
