@@ -6,17 +6,24 @@ class Solution {
         
         dp[0] = nums[0];
 
+        int prev1 = nums[0];
+        int prev2 = 0 ;
+
         for(int i=1 ; i<n ; i++){
 
-            int notpick = 0 + dp[i-1];
+            int notpick = 0 + prev1;
             int pick = nums[i];
             if(i>1){
-                pick = pick + dp[i-2];
+                pick = pick + prev2;
             }
-            dp[i] =  Math.max(pick , notpick);
+            int curr =  Math.max(pick , notpick);
+
+            prev2 = prev1;
+            prev1 = curr;
+
         }
 
-        return dp[n-1];
+        return prev1;
     }
 
     // public int helper(int i , int[] nums , int[] dp ){
