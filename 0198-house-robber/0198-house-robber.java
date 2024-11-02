@@ -3,28 +3,39 @@ class Solution {
         int n = nums.length;
 
         int dp[] = new int[n];
-        Arrays.fill(dp , -1);
+        
+        dp[0] = nums[0];
 
-        return helper(n-1 , nums , dp);
+        for(int i=1 ; i<n ; i++){
+
+            int notpick = 0 + dp[i-1];
+            int pick = nums[i];
+            if(i>1){
+                pick = pick + dp[i-2];
+            }
+            dp[i] =  Math.max(pick , notpick);
+        }
+
+        return dp[n-1];
     }
 
-    public int helper(int i , int[] nums , int[] dp ){
+    // public int helper(int i , int[] nums , int[] dp ){
 
-        if(i==0){
-            return nums[i];
-        }
+    //     if(i==0){
+    //         return nums[i];
+    //     }
 
-        if(dp[i]!=-1){
-            return dp[i];
-        }
+    //     if(dp[i]!=-1){
+    //         return dp[i];
+    //     }
 
-        int notpick = 0 + helper(i-1 , nums , dp);
-        int pick = nums[i];
-        if(i>1){
-            pick = pick + helper(i-2 , nums , dp);
-        }
-        return dp[i] =  Math.max(pick , notpick);
-    }
+    //     int notpick = 0 + helper(i-1 , nums , dp);
+    //     int pick = nums[i];
+    //     if(i>1){
+    //         pick = pick + helper(i-2 , nums , dp);
+    //     }
+    //     return dp[i] =  Math.max(pick , notpick);
+    // }
     
     
 //     public int helper(int index , int[] nums , int[] dp){
