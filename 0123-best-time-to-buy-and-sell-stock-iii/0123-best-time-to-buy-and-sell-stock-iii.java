@@ -8,20 +8,20 @@ class Solution {
         //         Arrays.fill(p , -1);
         //     }
         // }
-        for(int cap = 0 ; cap<=2 ; cap++){
-            dp[n][0][cap] = 0 ;
-            dp[n][1][cap] = 0 ;
-        }
+        // for(int cap = 0 ; cap<=2 ; cap++){
+        //     dp[n][0][cap] = 0 ;
+        //     dp[n][1][cap] = 0 ;
+        // }
 
-        for(int i=0 ; i<=n  ; i++){
-            dp[i][0][0] = 0;
-            dp[i][1][0] = 0;
+        // for(int i=0 ; i<=n  ; i++){
+        //     dp[i][0][0] = 0;
+        //     dp[i][1][0] = 0;
 
-        }
+        // }
         
         for(int i = n-1 ; i>= 0 ; i-- ){
             for(int buy = 0 ; buy<=1 ; buy++){
-                for(int cap =1 ; cap<=2 ; cap++){
+                for(int cap = 1 ; cap<=2 ; cap++){
 
                     int profit = 0;
                     if(buy==1){
