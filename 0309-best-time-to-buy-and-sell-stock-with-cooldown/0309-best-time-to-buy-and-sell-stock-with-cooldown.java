@@ -1,53 +1,24 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int dp[][] = new int[n+2][2];
 
-        // for(int[] d: dp){
-        //     Arrays.fill(d , -1);
-        // }
-
-        // dp[n+1][1] = 0;
-        // dp[n+1][0] = 0;
-
-        // dp[n][1] = 0;
-        // dp[n][0] = 0;
-        
-
+        int[] curr = new int[2];
+        int[] front1 = new int[2];
+        int[] front2 = new int[2];
 
         for(int i = n-1 ; i>=0 ; i--){
 
-                    int ibought = -prices[i] + dp[i+1][0] ;
-                    dp[i][1] = Math.max(ibought , 0 +  dp[i+1][1]);
+                        int ibought = -prices[i] + front1[0] ;
+                        curr[1] = Math.max(ibought , 0 +  front1[1]);
 
-                    int isold = prices[i] + dp[i+2][1] ;
-                    dp[i][0] = Math.max(isold , 0 + dp[i+1][0] );
-                    
+                        int isold = prices[i] + front2[1] ;
+                        curr[0] = Math.max(isold , 0 + front1[0] );
+
+            front2 = front1.clone(); // Clone to prevent unintended overwriting
+    front1 = curr.clone();
         }
 
-        return dp[0][1] ;
+        return curr[1] ;
     }
 
-    // public int helper(int i , int buy , int[] prices , int[][] dp){
-
-    //     if(i>=prices.length){
-    //         return 0;
-    //     }
-
-    //     if(dp[i][buy]!= -1){
-    //         return dp[i][buy];
-    //     }
-
-    //     int profit = 0 ;
-
-    //     if(buy==1){
-    //         int ibought = -prices[i] + helper(i+1 , 0 , prices , dp );
-    //         profit = Math.max(ibought ,0 +  helper(i+1 , 1 , prices , dp));
-    //     }
-    //     else{
-    //         int isold = prices[i] + helper(i+2 , 1 , prices , dp);
-    //         profit = Math.max(isold , 0 + helper(i+1 , 0 , prices , dp ));
-    //     }
-    //     return dp[i][buy] = profit;
-    // }
 }
