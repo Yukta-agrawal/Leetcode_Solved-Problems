@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 ## Tree
 |  |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0055-jump-game) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -131,4 +133,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1908-recyclable-and-low-fat-products](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1908-recyclable-and-low-fat-products) |
 | [1942-primary-department-for-each-employee](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/1942-primary-department-for-each-employee) |
 | [2087-confirmation-rate](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/2087-confirmation-rate) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Yukta-agrawal/Leetcode_Solved-Problems/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
